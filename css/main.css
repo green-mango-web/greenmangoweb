@@ -542,6 +542,7 @@ input[type="date" i] {
 */
 .logo {
   height: 50px;
+  opacity: 65%;
 }
 
 .logo > a{
