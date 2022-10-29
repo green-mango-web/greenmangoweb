@@ -542,15 +542,17 @@ input[type="date" i] {
 */
 .logo {
   height: 50px;
-  opacity: 65%;
+  
 }
 
 .logo > a{
   display: block;
   height: 100%;
+
 }
 
 .logo > a > img {
+  opacity: 65%;
   width: auto;
   max-height: 100%;
   vertical-align: middle;
