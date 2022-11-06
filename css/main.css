@@ -1693,8 +1693,9 @@ body {padding-right: 0px !important;}
 }
 
 .play_vid {
-  width: 20%;
+  width: 75px;
   opacity: 65%;
+  max-width: 75px;
 }
 
 
