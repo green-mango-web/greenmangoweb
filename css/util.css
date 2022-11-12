@@ -1,3 +1,8 @@
+:root {
+	--orange: #ff9933;
+	--orange_trans: rgb(255, 153, 51, 0.7);
+}
+
 /*[ FONT SIZE ]
 ///////////////////////////////////////////////////////////
 */
@@ -2967,7 +2972,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Courgette;
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: var(--orange);
 }
 
 .tit3 {
@@ -3113,7 +3118,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-family: Montserrat;
 	font-weight: 700;
 	font-size: 50px;
-	color: #ec1d25;
+	color: var(--orange);
 	line-height: 1.1;
 	text-transform: uppercase;
 	letter-spacing: 3px;

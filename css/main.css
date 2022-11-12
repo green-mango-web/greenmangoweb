@@ -263,10 +263,10 @@ iframe {
 
 .cp-meter {
     border-radius: 50%;
-    border-top: solid 6px #ec1d25;
-    border-right: solid 6px #ec1d25;
-    border-bottom: solid 6px #ec1d25;
-    border-left: solid 6px #ec1d25;
+    border-top: solid 6px var(--orange);
+    border-right: solid 6px var(--orange);
+    border-bottom: solid 6px var(--orange);
+    border-left: solid 6px var(--orange);
     width: 48px;
     height: 48px;
     display: inline-block;
@@ -280,7 +280,7 @@ iframe {
     height: 12px;
     display: inline-block;
     box-sizing: border-box;
-    background-color: #ec1d25;
+    background-color: var(--orange);
     position: absolute;
     top: 5px;
     left: 16px;
@@ -343,7 +343,7 @@ iframe {
 ///////////////////////////////////////////////////////////
 */
 td.active {
-  background-color: #ec1d25 !important;
+  background-color: var(--orange) !important;
 }
 
 input[type="date" i] {
@@ -892,7 +892,7 @@ input[type="date" i] {
 .arrow-slick1:hover,
 .arrow-slick2:hover,
 .arrow-slick3:hover {
-  background-color: #ec1d25;
+  background-color: var(--orange);
 }
 
 .next-slick1,
@@ -1118,13 +1118,13 @@ input[type="date" i] {
 
 
 .slick2-dots li button:hover {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
 }
 
 .slick2-dots li.slick-active button {
-  border: 1px solid #d41b22;
-  background-color: #d41b22;
+  border: 1px solid var(--orange);
+  background-color: var(--orange);
 } 
 
 
@@ -1660,33 +1660,26 @@ body {padding-right: 0px !important;}
   background-color: #ec1d25;
 }
 
-.location h1 {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  text-align: center;
-}
-.location p {
-  text-align: center;
-  padding-bottom: 1em;
-}
+
 
 .location {
   overflow:show;
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  background-image: url(../images/icons/pattern2.png);
 }
 
 .location iframe{
   left:0;
-  top:0;
+
   height:100%;
   width:100%;
   position:absolute;
 }
 
 .locate_text {
-  padding: 0.5em;
+  padding-top: 0.5em;
   text-align: center;
   font-family: 'Lobster', cursive;
   background-image: url(../images/icons/pattern2.png);
