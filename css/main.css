@@ -234,6 +234,8 @@ iframe {
 	max-width: 1200px;
 }
 
+
+
 .slick-slide {
   outline: none !important;
 }
@@ -512,11 +514,13 @@ input[type="date" i] {
 .wrap-menu-header {
   position: absolute;
   width: 100%;
-  height: 120px;
+  height: 100px;
   top: 0;
   left: 0;
   z-index: 100;
   border-top: 5px solid var(--orange);
+  background-color: white;
+  opacity: 95%;
 }
 
 .wrap_header {
@@ -555,7 +559,7 @@ input[type="date" i] {
 }
 
 .logo > a > img {
-  opacity: 65%;
+  opacity: 100%;
   width: auto;
   max-height: 100%;
   vertical-align: middle;
