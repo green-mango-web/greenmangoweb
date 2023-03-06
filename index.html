@@ -1,831 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Green Mango</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/gmLogo.png"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
-	<style>
-		@media screen and (min-width: 720px) {
-			.play_vid {
-				width: 100px;
-				opacity: 65%;
-				max-width: 100px;
-			}
-		}
-
-		@media screen and (min-width: 720px) {
-			.location iframe {
-				height: 61.8%;
-  				width: 61.8%;
-				left: 20.9%;
-				top: 25%
-				
-			}
-		}
-	</style>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/gmLogo.png" type="image/x-icon">
+  <title>Green Mango</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <!-- aos library css  -->
+  <link rel="stylesheet" href="./aos.css" />
+  <!-- Add your custom css -->
+  <link rel="stylesheet" href="./home.css">
 </head>
-<body class="animsition">
 
-	<!-- Header -->
-	<header>
-		<!-- Header desktop -->
-		<div class="wrap-menu-header trans-0-4">
-			<div class="container h-full">
-				<div class="wrap_header trans-0-3">
-					<!-- Logo -->
-					<div class="logo">
-						<a href="https://www.greenmangonl.com/">
-							<img alt="IMG-LOGO" src="./images/loGo.png" data-logofixed="./images/loGo.png">
-						</a>
-					</div>
-
-					<!-- Menu -->
-					<div class="wrap_menu p-l-45 p-l-0-xl">
-						<nav class="menu">
-							<ul class="main_menu">
-								<li>
-									<a href="https://www.greenmangonl.com">Home</a>
-								</li>
-
-								<li>
-									<a href="menu.html">Menu</a>
-								</li>
-
-								<li>
-									<a href="#">About</a>
-								</li>
-
-
-								<li>
-									<a href="#">Contact</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-
-					<!-- Social -->
-					<div class="social flex-w flex-l-m p-r-20">
-						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- Sidebar -->
-	<aside class="sidebar trans-0-4">
-		<!-- Button Hide sidebar -->
-		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
-
-		<!-- - -->
-		<ul class="menu-sidebar p-t-95 p-b-70">
-			<li class="t-center m-b-13">
-				<a href="https://www.greenmangonl.com" class="txt19">Home</a>
-			</li>
-
-			<li class="t-center m-b-13">
-				<a href="menu.html" class="txt19">Menu</a>
-			</li>
-
-
-			<li class="t-center m-b-13">
-				<a href="#" class="txt19">About</a>
-			</li>
-
-
-			<li class="t-center m-b-33">
-				<a href="#" class="txt19">Contact</a>
-			</li>
-
-
-		<!-- - -->
-		<div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
-			<!-- - -->
-			<h4 class="txt20 m-b-33">
-				Gallery
-			</h4>
-
-			<!-- Gallery -->
-			<div class="wrap-gallery-sidebar flex-w">
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
-				</a>
-
-				<a class="item-gallery-sidebar wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-					<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
-				</a>
-			</div>
-		</div>
-	</aside>
-
-	<!-- Welcome -->
-	<section class="section-welcome bg1-pattern p-t-120 p-b-105">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 p-t-45 p-b-30">
-					<div class="wrap-text-welcome t-center">
-						<span class="tit2 t-center">
-							Thai Restaurant
-						</span>
-
-						<h3 class="tit3 t-center m-b-35 m-t-5">
-							Welcome
-						</h3>
-
-						<p class="t-center m-b-22 size3 m-l-r-auto">
-							It's is the best Thai and Chinese food in Newfoundland that we are having
-						</p>
-
-						<li class="t-center m-b-33">
-							<a href="#" class="txt19 sizeup">Order</a>
-						</li>
-			
-					</div>
-				</div>
-
-				<div class="col-md-6 p-b-30">
-					<div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
-						<img src="images/our-story-01.jpg" alt="IMG-OUR">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-
-
-	<section class="section-event">
-		<div class="wrap-slick2">
-			<div class="slick2">
-				<div class="item-slick2 item1-slick2" style="background-image: url(images/bg-event-01.jpg);">
-					<div class="wrap-content-slide2 p-t-115 p-b-208">
-						<div class="container">
-						
-							<div class="title-event t-center m-b-52">
-								<span class="tit2 p-l-15 p-r-15">
-									Upcomming
-								</span>
-
-								<h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
-									Events
-								</h3>
-							</div>
-
-							<!-- Block2 -->
-							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="zoomIn">
-								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(images/event-02.jpg);">
-									<div class="time-event size10 txt6 effect1">
-										<span class="txt-effect1 flex-c-m t-center">
-											08:00 PM Tuesday - 21 November 2018
-										</span>
-									</div>
-								</a>
-
-								<!-- Text block2 -->
-								<div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
-									<h4 class="tit7 t-center m-b-10">
-										Wines during specific nights
-									</h4>
-
-									<p class="t-center">
-										Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia
-									</p>
-
-									<div class="flex-sa-m flex-w w-full m-t-40">
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 days">
-												25
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Days
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 hours">
-												12
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Hours
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 minutes">
-												59
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Minutes
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 seconds">
-												56
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Seconds
-											</span>
-										</div>
-									</div>
-
-									<a href="#" class="txt4 m-t-40">
-										View Details
-										<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item-slick2 item2-slick2" style="background-image: url(images/bg-event-02.jpg);">
-					<div class="wrap-content-slide2 p-t-115 p-b-208">
-						<div class="container">
-							<!-- - -->
-							<div class="title-event t-center m-b-52">
-								<span class="tit2 p-l-15 p-r-15">
-									Upcomming
-								</span>
-
-								<h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
-									Events
-								</h3>
-							</div>
-
-							<!-- Block2 -->
-							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="fadeInDown">
-								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg2-blo2" style="background-image: url(images/event-06.jpg);">
-									<div class="time-event size10 txt6 effect1">
-										<span class="txt-effect1 flex-c-m">
-											08:00 PM Tuesday - 21 November 2018
-										</span>
-									</div>
-								</a>
-
-								<!-- Text block2 -->
-								<div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
-									<h4 class="tit7 t-center m-b-10">
-										Wines during specific nights
-									</h4>
-
-									<p class="t-center">
-										Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia
-									</p>
-
-									<div class="flex-sa-m flex-w w-full m-t-40">
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 days">
-												25
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Days
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 hours">
-												12
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Hours
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 minutes">
-												59
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Minutes
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 seconds">
-												56
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Seconds
-											</span>
-										</div>
-									</div>
-
-									<a href="#" class="txt4 m-t-40">
-										View Details
-										<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="item-slick2 item3-slick2" style="background-image: url(images/bg-event-04.jpg);">
-					<div class="wrap-content-slide2 p-t-115 p-b-208">
-						<div class="container">
-							<!-- - -->
-							<div class="title-event t-center m-b-52">
-								<span class="tit2 p-l-15 p-r-15">
-									Upcomming
-								</span>
-
-								<h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
-									Events
-								</h3>
-							</div>
-
-							<!-- Block2 -->
-							<div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="rotateInUpLeft">
-								<!-- Pic block2 -->
-								<a href="#" class="wrap-pic-blo2 bg3-blo2" style="background-image: url(images/event-01.jpg);">
-									<div class="time-event size10 txt6 effect1">
-										<span class="txt-effect1 flex-c-m">
-											08:00 PM Tuesday - 21 November 2018
-										</span>
-									</div>
-								</a>
-
-								<!-- Text block2 -->
-								<div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
-									<h4 class="tit7 t-center m-b-10">
-										Wines during specific nights
-									</h4>
-
-									<p class="t-center">
-										Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed fringilla, nunc sed imperdiet lacinia
-									</p>
-
-									<div class="flex-sa-m flex-w w-full m-t-40">
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 days">
-												25
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Days
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 hours">
-												12
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Hours
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 minutes">
-												59
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Minutes
-											</span>
-										</div>
-
-										<div class="size11 flex-col-c-m">
-											<span class="dis-block t-center txt7 m-b-2 seconds">
-												56
-											</span>
-
-											<span class="dis-block t-center txt8">
-												Seconds
-											</span>
-										</div>
-									</div>
-
-									<a href="#" class="txt4 m-t-40">
-										View Details
-										<i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="wrap-slick2-dots"></div>
-		</div>
-	</section>
-
-
-
-	<!-- Video -->
-	<section class="section-video parallax100" style="background-image: url(images/header-menu-01.jpg);">
-		<div class="content-video t-center p-t-225 p-b-250">
-			<span class="tit2 p-l-15 p-r-15">
-				Discover
-			</span>
-
-			<h3 class="tit4 t-center p-l-15 p-r-15 p-t-3">
-				Our Video
-			</h3>
-
-			<div class="btn-play ab-center size16 hov-pointer m-l-r-auto m-t-43 m-b-33" data-toggle="modal" data-target="#modal-video-01">
-				<div class="flex-c-m sizefull bo-cir bgwhite color1 hov1 trans-0-4">
-					<i class="fa fa-play fs-18 m-l-2" aria-hidden="false"></i>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	
-	
-
-
-	<!-- Our menu -->
-	<section class="section-ourmenu bg2-pattern p-t-115 p-b-120">
-		<div class="container">
-			<div class="title-section-ourmenu t-center m-b-22">
-				<span class="tit2 t-center">
-					Discover
-				</span>
-
-				<h3 class="tit5 t-center m-t-2">
-					Our Menu
-				</h3>
-			</div>
-
-			<div class="row">
-				<div class="col-md-8">
-					<div class="row">
-						<div class="col-sm-6">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/paidthai.jpeg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size4">
-									Lunch
-								</a>
-							</div>
-						</div>
-
-						<div class="col-sm-6">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/thaill.jpeg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size5">
-									Dinner
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/sushi.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size5">
-									Sushi
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="row">
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/drinks.webp" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size7">
-									Drinks
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								<img src="images/soup.jpg" alt="IMG-MENU">
-
-								<!-- Button2 -->
-								<a href="#" class="btn2 flex-c-m txt5 ab-c-m size8">
-									Soup
-								</a>
-							</div>
-						</div>
-
-						<div class="col-12">
-							<!-- Item our menu -->
-							<div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
-								
-
-								<!-- Button2 -->
-								<a href="#">
-									<img src="images/cs.png" alt="IMG-MENU">
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-	<!-- OUR LOCATION -->
-	<h1 class="locate_text">LOCATION</h1>
-	<div class="location">
-		<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d168.30477061190822!2d-52.78029812232367!3d47.55073564701818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0ca35fba913781%3A0x3f24ed9552a13fe3!2sKiwanis%20St%2C%20St.%20John&#39;s%2C%20NL%20A1B%200A2!5e0!3m2!1sen!2sca!4v1664586452070!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-	</div>
-	
-
-
-	<!-- Footer -->
-	<footer class="bg1">
-		<div class="container p-t-40 p-b-70">
-			<div class="row">
-				<div class="col-sm-6 col-md-4 p-t-50">
-					<!-- - -->
-					<h4 class="txt13 m-b-33">
-						Contact Us
-					</h4>
-
-					<ul class="m-b-70">
-						<li class="txt14 m-b-14">
-							<i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
-							Kiwanis St, St. John's, NL A1B 0A2
-						</li>
-
-						<li class="txt14 m-b-14">
-							<i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
-							(+1) (437)988-7988
-						</li>
-
-						<li class="txt14 m-b-14">
-							<i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
-							greenmango608@gmail.com
-						</li>
-					</ul>
-
-					<!-- - -->
-					<h4 class="txt13 m-b-32">
-						Opening Times
-					</h4>
-
-					<ul>
-						<li class="txt14">
-							11:30 AM – 10:00 PM
-						</li>
-
-						<li class="txt14">
-							Every Day
-						</li>
-					</ul>
-				</div>
-
-				<div class="col-sm-6 col-md-4 p-t-50">
-					<!-- - -->
-					<h4 class="txt13 m-b-33">
-						Latest Social Media
-					</h4>
-
-					<div class="m-b-25">
-						<span class="fs-13 color2 m-r-5">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-						</span>
-						<a href="#" class="txt15">
-							@greenmango2022
-						</a>
-
-						<p class="txt14 m-b-18">
-							Activello is a good option. It has a slider built into that displays the featured image in the slider.
-							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
-							</a>
-						</p>
-
-					</div>
-
-					<div>
-						<span class="fs-13 color2 m-r-5">
-							<i class="fa fa-twitter" aria-hidden="true"></i>
-						</span>
-						<a href="#" class="txt15">
-							@greenmango2022
-						</a>
-
-						<p class="txt14 m-b-18">
-							Activello is a good option. It has a slider built into that displays
-							<a href="#" class="txt15">
-								https://buff.ly/2zaSfAQ
-							</a>
-						</p>
-
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 p-t-50">
-					<!-- - -->
-					<h4 class="txt13 m-b-38">
-						Gallery
-					</h4>
-
-					<!-- Gallery footer -->
-					<div class="wrap-gallery-footer flex-w">
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-01.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-01.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-02.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-02.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-03.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-03.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-04.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-04.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-05.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-05.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-06.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-06.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-07.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-07.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-08.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-08.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-09.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-09.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-10.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-10.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-11.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-11.jpg" alt="GALLERY">
-						</a>
-
-						<a class="item-gallery-footer wrap-pic-w" href="images/photo-gallery-12.jpg" data-lightbox="gallery-footer">
-							<img src="images/photo-gallery-thumb-12.jpg" alt="GALLERY">
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<div class="end-footer bg2">
-			<div class="container">
-				<div class="flex-sb-m flex-w p-t-22 p-b-22">
-					<div class="p-t-5 p-b-5">
-						<a href="#" class="fs-15 c-white"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-	<!-- Back to top -->
-	<div class="btn-back-to-top bg0-hov" id="myBtn">
-		<span class="symbol-btn-back-to-top">
-			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
-		</span>
-	</div>
-
-	<!-- Container Selection1 -->
-	<div id="dropDownSelect1"></div>
-
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
-
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
-
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0" allowfullscreen><h6>a</h6></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/bootstrap/js/popper.js"></script>
-	<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/daterangepicker/moment.min.js"></script>
-	<script type="text/javascript" src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
-	<script type="text/javascript" src="js/slick-custom.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
-	<script type="text/javascript">
-        $('.parallax100').parallax100();
-	</script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
+<body>
+  <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/loGo.png" alt="shaif's cuisine">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./menu.html">Menu</a></li>
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><a href="./booking.html" class="btn primary-btn">Order</a></li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- End Nav Section -->
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero__wrapper">
+        <div class="hero__left" data-aos="fade-left">
+          <div class="hero__left__wrapper">
+
+            <h1 class="hero__heading">The Original Taste</h1>
+            <p class="hero__info">
+              We are a multi-cuisine restaurant offering a wide variety of food choices in Thai, Japanises, and other Asian foods.
+            </p>
+            <div class="button__wrapper">
+              <a href="./menu.html" class="btn primary-btn">Explore Menu</a>
+              <a href="./booking.html" class="btn">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero__right" data-aos="fade-right">
+          <div class="hero__imgWrapper">
+            <img src="./images/heroImg.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+  <!-- Store Info Section -->
+  <section id="storeInfo" data-aos="fade-up">
+    <div class="container">
+      <div class="storeInfo__wrapper">
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/wall-clock-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            11:30 AM - 10 PM
+          </h3>
+          <p class="storeInfo__text">
+            Opening Hour
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/address-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            9 Kiwanis Street<br> 
+            St. John's, NL<br>A1B 0A2
+          </h3>
+          <p class="storeInfo__text">
+            Address
+          </p>
+        </div>
+        <div class="storeInfo__item">
+          <div class="storeInfo__icon">
+            <img src="./images/phone-icon.svg" alt="clock icon">
+          </div>
+          <h3 class="storeInfo__title">
+            +1(647)893-3168
+          </h3>
+          <p class="storeInfo__text">
+            Call Now
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Store Info Section -->
+  <!-- Our Specials Section -->
+  <section id="ourSpecials" data-aos="fade-up">
+    <div class="container">
+      <div class="ourSpecials__wrapper">
+        <div class="ourSpecials__left">
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/food-3.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Special(Brian) Pad Thai
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              $19.99
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+              Chicken, jobmo tiger Shrimp, Beef. The quintessential Thai dish made up of rice noodles stir-fried with egg bean sprouts, tofu and onions in a homemade sauce. A special and more luxurious version of normal(chicken) Pad Thai.
+            </p>
+          </div>
+          <div class="ourSpecials__item">
+            <div class="ourSpecials__item__img">
+              <img src="./images/food-1.png" alt="food img">
+            </div>
+            <h2 class="ourSpecials__item__title">
+              Cashew Chicken
+            </h2>
+            <h3 class="ourSpecials__item__price">
+              $18.99
+            </h3>
+            <div class="ourSpecials__item__stars">
+              <img src="./images/3star.png" alt="3 stars">
+            </div>
+            <p class="ourSpecials__item__text">
+              Chicken stir-fried with Bell Peppers, Onions Pineapple in a sweet but mildly spicy Tamarind sauce. Garnished with Roast Cashews.
+            </p>
+          </div>
+        </div>
+        <div class="ourSpecials__right">
+          <h2 class="ourSpecials__title">
+            Our Specials
+          </h2>
+          <p class="ourSpecials__text">
+            All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are
+            delivered to our customers
+          </p>
+          <a href="./booking.html" class="btn primary-btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Specials Section -->
+  <!-- Top Dishes -->
+  <section id="dishGrid" data-aos="fade-up">
+    <div class="container">
+      <h2 class="dishGrid__title">
+        Top Dishes
+      </h2>
+      <div class="dishGrid__wrapper">
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-1.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Vegan Salad bowl
+            </h3>
+            <h3 class="dishGrid__item__price">$12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-2.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Vegan Pesto Zoodles
+            </h3>
+            <h3 class="dishGrid__item__price">$12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+        <div class="dishGrid__item">
+          <div class="dishGrid__item__img">
+            <img src="./images/food-7.png" alt="food img">
+          </div>
+          <div class="dishGrid__item__info">
+            <h3 class="dishGrid__item__title">
+              Hot Green Bowl
+            </h3>
+            <h3 class="dishGrid__item__price">$12</h3>
+            <div class="dishGrid__item__stars">
+              <img src="./images/3star.png" alt="3 star">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Top Dishes -->
+  <!-- Discount Section -->
+  <section id="discount" data-aos="fade-up">
+    <div class="container">
+      <div class="discount__wrapper">
+        <div class="discount__images">
+          <div class="discount__img1">
+            <img src="./images/food-5.png" alt="Food img">
+          </div>
+          <div class="discount__img2">
+            <img src="./images/food-4.png" alt="Food img">
+          </div>
+          <div class="discount__img3">
+            <img src="./images/food-3.png" alt="Food img">
+          </div>
+        </div>
+        <div class="discount__info">
+          <h3 class="discount__text">20% OFF</h3>
+          <h3 class="discount__title">Demo Dish For Discount</h3>
+          <h3 class="discount__price">
+            <span class="discount__oldPrice">$45</span>
+            <span class="discount__newPrice">$35</span>
+          </h3>
+          <div class="discount__stars">
+            <img src="./images/3star.png" alt="3 stars">
+          </div>
+          <a class="btn primary-btn" href="./booking.html">Book Table</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Discount Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <img src="./images/loGo.png" alt="shaif's cuisine" class="footer_logo">
+          </div>
+          <p class="footer__desc">
+            Fresh and delicious traditional Bangladeshi food to delight the whole family.
+          </p>
+          <div class="footer__socials">
+            <h4 class="footer__socials__title">Follow us</h4>
+            <ol class="footer__socials__list">
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-facebook">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-twitter">
+                    <path
+                      d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                  </svg>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./booking.html">Book Table</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">+1(647)893-3168</a>
+            </li>
+            <li>
+              <a href="#">greenmango608@gmail.com</a>
+            </li>
+            <li>
+              <a href="#">St.John's, NL, Canada, A1B0C6</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © copyright 2021 Shaif’s Cuisine | All rights reserved
+      </p>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <!-- aos script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- custom script -->
+  <script src="./main.js"></script>
 </body>
+
 </html>

@@ -6,13 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-  <title>About | Shaif's Cuisine</title>
+  <title>Booking | Shaif's Cuisine</title>
   <link rel="stylesheet" href="./reset.css">
   <link rel="stylesheet" href="./globalStyles.css">
   <link rel="stylesheet" href="./components.css">
   <!-- aos library css  -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" href="./about.css">
 </head>
 
 <body>
@@ -21,7 +20,7 @@
     <div class="container">
       <div class="nav__wrapper">
         <a href="./index.html" class="logo">
-          <img src="./images/image2vector.svg" alt="shaif's cuisine">
+          <img src="./images/logo.svg" alt="shaif's cuisine">
         </a>
         <nav>
           <div class="nav__icon">
@@ -57,72 +56,71 @@
     </div>
   </div>
   <!-- End Nav Section -->
-  <!-- Our Story Section -->
-  <section id="ourStory" data-aos="fade-up">
+  <!-- Booking Section -->
+  <section id="form" data-aos="fade-up">
     <div class="container">
-      <div class="ourStory__wrapper">
-
-        <div class="ourStory__img">
-          <img src="./images/ourStoryImg.png" alt="shaif's cuisine">
-        </div>
-        <div class="ourStory__info">
-          <h3 class="ourStory__title">
-            Our Story
-          </h3>
-          <p class="ourStory__subtitle">
-            It's all started since 1998
-          </p>
-          <p class="ourStory__text">
-            Welcome to Shaif's Cuisine. We take pride in delivering warm, friendly service and creating mouth-watering
-            culinary delights for all. Using only the freshest locally sourced ingredients, we’ll ensure you have a
-            dining
-            experience to remember.
-            <br><br>
-            Since 1998, we are the perfect place for a romantic meal for two, a catch-up with friends, family parties,
-            business meetings, and bringing loved ones together. With comfortable surroundings, affordable prices, and
-            seating for up to 65 guests, we can cater for all occasions.
-          </p>
-        </div>
+      <h3 class="form__title">Book Table</h3>
+      <div class="form__wrapper">
+        <form name="booking" method="POST" netlify>
+          <div class="form__group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="First Name" required>
+          </div>
+          <div class="form__group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="Last Name" required>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required>
+          </div>
+          <div class="form__group">
+            <label for="tableType">Table Type</label>
+            <select name="Table Type" id="tableType" required>
+              <option selected disabled>Choose</option>
+              <option value="small">Small(2 persons)</option>
+              <option value="medium">Small(4 persons)</option>
+              <option value="large">large(6 persons)</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="guestNumber">Guest Number</label>
+            <input type="number" id="guestNumber" name="Guest Number" min="1" max="10" required>
+          </div>
+          <div class="form__group">
+            <label for="placement">Placement</label>
+            <select name="Placement" id="placement">
+              <option selected disabled>Choose</option>
+              <option value="outdoor">Outdoor</option>
+              <option value="indoor">Indoor</option>
+              <option value="rooftop">rooftop</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="Date" required>
+          </div>
+          <div class="form__group">
+            <label for="time">time</label>
+            <input type="time" id="time" name="Time" required>
+          </div>
+          <div class="form__group form__group__full">
+            <label for="note">Note</label>
+            <textarea name="Note" id="note" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Book Table</button>
+        </form>
       </div>
     </div>
   </section>
-  <!-- End Our Story Section -->
-  <!-- Our Goals -->
-  <section id="ourGoals" data-aos="fade-down">
-    <div class="container">
-      <div class="ourGoals__info">
-        <h3 class="ourGoals__title">
-          Our Goals
-        </h3>
-        <p class="ourGoals__text">
-          We shall sell delicious and remarkable food and beverages that meet the highest quality, freshness, and
-          seasonality criteria while combining modern-creative and classic cooking traditions. By showcasing warmth,
-          graciousness, efficiency, skill, professionalism, and integrity in our work, we will continually serve our
-          consumers with exceptional service. To have every customer who comes through our doors leave impressed by
-          their experience at Shaif's Cuisine and excited to come back again.
-        </p>
-      </div>
-      <div class="ourGoals__imgs__wrapper" data-aos="fade-up">
-        <div class="ourGoals__img1">
-          <img src="./images/ourGoals_img1.png" alt="kitchen img">
-        </div>
-        <div class="ourGoals__img2">
-          <img src="./images/ourGoals_img2.png" alt="kitchen img">
-        </div>
-        <div class="ourGoals__img3">
-          <img src="./images/ourGoals_img3.png" alt="kitchen img">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Our Goals -->
+  <!-- End Booking Section -->
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="footer__wrapper">
         <div class="footer__col1">
           <div class="footer__logo">
-            <img src="./images/logo (1).svg" alt="shaif's cuisine">
+            <img src="./images/logo.svg" alt="shaif's cuisine">
           </div>
           <p class="footer__desc">
             Fresh and delicious traditional Bangladeshi food to delight the whole family.
