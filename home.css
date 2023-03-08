@@ -192,7 +192,7 @@
 	flex-direction: column;
 	padding: 1.5rem;
 	border-radius: 12px;
-	background: var(--lightGreen-1) url(./images/discount-illustration.png)
+	background: var(--lightGreen-1)
 		no-repeat bottom right / 100px;
 }
 .discount__images {
@@ -263,7 +263,7 @@
 		height: 350px;
 	}
 	.discount__info {
-		flex: 3;
+		flex: 2;
 	}
 	.discount__text {
 		font-size: 2.4rem;
