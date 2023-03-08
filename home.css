@@ -259,12 +259,10 @@
 	.discount__img1,
 	.discount__img2,
 	.discount__img3 {
-		flex: 1;
+		flex: 0.5;
 		height: 350px;
 	}
-	.discount__info {
-		flex: 2;
-	}
+	
 	.discount__text {
 		font-size: 2.4rem;
 	}
