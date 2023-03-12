@@ -21,7 +21,7 @@
 	text-align: center;
 	font-size: 3rem;
 	margin-bottom: 1.5rem;
-	color: var(--black-1);
+	color: #e35e11;
 }
 .hero__heading {
 	font-family: Poppins;
@@ -133,9 +133,10 @@
 	font-weight: 500;
 }
 .ourSpecials__title {
+	font-weight: 600;
 	font-size: 1.8rem;
 	margin-bottom: 1.5rem;
-	color: var(--black-1);
+	color: #e35e11;
 }
 .ourSpecials__text {
 	font-size: 1.4rem;
