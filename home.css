@@ -95,7 +95,7 @@
 .ourSpecials__item {
 	background-color: var(--lightGreen-1);
 	padding: 1.2rem;
-	padding-top: 5rem;
+	padding-top: 10rem;
 	border-radius: 12px;
 	width: 45%;
 	margin: 0 auto;
@@ -143,6 +143,9 @@
 	margin-bottom: 1rem;
 }
 @media only screen and (min-width: 768px) {
+	.ourSpecials__item__img{
+		object-fit: cover;
+	}
 	#ourSpecials {
 		padding-top: 15rem;
 	}
@@ -187,6 +190,9 @@
 	}
 }
 @media only screen and (max-width: 300px) {
+	.ourSpecials__item__img{
+		object-fit: cover;
+	}
 	.ourSpecials__left {
 		flex-wrap: wrap;
 		gap: 10rem;
