@@ -81,7 +81,7 @@
 }
 /* Our Specials Section Styles */
 #ourSpecials {
-	padding-top: 5rem;
+	padding-top: 0.3rem;
 }
 .ourSpecials__wrapper {
 	display: flex;
@@ -227,9 +227,9 @@
 	border-radius: 12px;
 }
 .discount__text {
-	font-size: 1.4rem;
+	font-size: 2.0rem;
 	font-weight: 900;
-	color: var(--green-1);
+	color: rgba(227,94,17,255);
 	margin-bottom: 0.5rem;
 }
 .discount__title {
