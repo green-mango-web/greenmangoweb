@@ -204,9 +204,14 @@
 	
 }
 .dishGrid__item__img {
+	object-fit: cover;
+	max-width: 600;
+	max-height: 600;
 	flex: 4;
 }
 .dishGrid__item__info {
+	max-width: 600;
+	max-height: 600;
 	flex: 5;
 }
 .dishGrid__item__img img {
