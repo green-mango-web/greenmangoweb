@@ -220,15 +220,15 @@
 	margin-bottom: 0.5rem;
 }
 .dishGrid__item__price {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	color: var(--green-1);
 	font-weight: 600;
 	margin-bottom: 0.5rem;
 }
 
 .dishGrid__item__price1 {
-	font-size: 0.7rem;
-	color: var(--green-1);
+	font-size: 1.4rem;
+	color: rgb(204, 147, 13);
 	font-weight: 600;
 	margin-bottom: 0.5rem;
 }
