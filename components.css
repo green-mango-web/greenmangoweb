@@ -227,9 +227,9 @@
 }
 
 .dishGrid__item__price1 {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	color: rgb(217, 158, 22);
-	font-weight: 600;
+	font-weight: 1;
 	margin-bottom: 0.5rem;
 }
 
