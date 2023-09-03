@@ -1,3 +1,7 @@
+.special_date{
+	font-size: x-large;
+}
+
 /* hero section styles */
 .hero__wrapper {
 	display: flex;
