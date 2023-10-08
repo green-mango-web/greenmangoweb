@@ -1,3 +1,5 @@
+
+
 .special_date{
 	font-size: x-large;
 }
@@ -21,11 +23,12 @@
 .hero__heading__1{
 	font-family: Poppins;
 	font-weight: 600;
-	line-height: 1.4em;
+	line-height: 1em;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-bottom: 1.5rem;
 	color: #e35e11;
+	
 }
 .hero__heading {
 	font-family: Poppins;
@@ -47,6 +50,15 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.hero__heading__1{
+		font-family: Poppins;
+		font-weight: 600;
+		line-height: 1.3em;
+		text-align: center;
+		font-size: 3rem;
+		margin-bottom: 1.5rem;
+		color: #e35e11;
+	}
 	.hero__wrapper {
 		flex-direction: row;
 		gap: 0;
@@ -214,15 +226,14 @@
 	display: flex;
 	flex-direction: column;
 	border-radius: 12px;
-	background: var(--lightGreen-1);
-	padding: 10px;
+	
 }
 .discount__info{
 	text-align: center;
 }
 
 .discount__text {
-	font-size: 2.0rem;
+	font-size: 2.5rem;
 	font-weight: 900;
 	color: rgba(227,94,17,255);
 	margin-bottom: 0.5rem;
@@ -250,7 +261,7 @@
 @media only screen and (min-width: 768px) {
 	.discount__wrapper {
 		flex-direction: column;
-		padding: 2rem;
+		padding: 1rem;
 		align-items: center;
 		
 	}
