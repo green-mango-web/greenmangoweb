@@ -10,7 +10,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column-reverse;
-	gap: 5rem;
+	gap: 2rem;
 }
 .hero__left__wrapper {
 	max-width: 350px;
@@ -42,7 +42,7 @@
 .hero__info {
 	text-align: center;
 	font-size: 1.4rem;
-	margin-bottom: 1.5rem;
+	
 	color: var(--black-2);
 }
 .button__wrapper {
@@ -69,7 +69,7 @@
 	}
 	.hero__right {
 		align-items: center;
-		flex: 4;
+		flex: 1;
 	}
 	.hero__heading {
 		font-size: 3.6rem;
