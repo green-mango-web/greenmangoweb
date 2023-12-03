@@ -4,6 +4,11 @@
 	font-size: x-large;
 }
 
+.discount_image
+{
+	display: block; margin-left: auto;margin-right: auto; background-size: cover; border-radius: 20px;
+}
+
 /* hero section styles */
 .hero__wrapper {
 	display: flex;
@@ -13,7 +18,6 @@
 	gap: 2rem;
 }
 .hero__left__wrapper {
-	margin-right: 1%;
 	max-width: 350px;
 }
 .hero__imgWrapper {
@@ -51,6 +55,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+	.discount_image
+	{
+		display: block;margin-left: -35%;margin-right: 35%;width: 150%;height: 150%; border-radius: 20px;
+	}
 	.hero__left__wrapper {
 		margin-left: 10%;
 		max-width: 350px;
