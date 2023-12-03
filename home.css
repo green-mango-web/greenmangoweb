@@ -13,12 +13,13 @@
 	gap: 2rem;
 }
 .hero__left__wrapper {
+	margin-left: 10%;
 	max-width: 350px;
 }
 .hero__imgWrapper {
 	max-width: 400px;
-	width: 80%;
 	margin: 0 auto;
+	background-size: cover
 }
 .hero__heading__1{
 	font-family: Poppins;
@@ -36,7 +37,7 @@
 	line-height: 1.4em;
 	text-align: center;
 	font-size: 1.8rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1rem;
 	color: var(--black-1);
 }
 .hero__info {
@@ -223,6 +224,7 @@
 
 /* Discount Styles */
 .discount__wrapper {
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	border-radius: 12px;
@@ -260,6 +262,7 @@
 
 @media only screen and (min-width: 768px) {
 	.discount__wrapper {
+		
 		flex-direction: column;
 		padding: 1rem;
 		align-items: center;
