@@ -57,7 +57,7 @@
 @media only screen and (min-width: 768px) {
 	.discount_image
 	{
-		display: block;margin-left: -35%;margin-right: 35%;width: 150%;height: 150%; border-radius: 20px;
+		display: block;margin-left: -95%;margin-right: 35%;width: 200%;height: 200%; border-radius: 20px;
 	}
 	.hero__left__wrapper {
 		margin-left: 10%;
